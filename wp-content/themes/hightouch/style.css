@@ -9,6 +9,17 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+html
+{
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+}
+
+
 
 html,
 button,
@@ -312,6 +323,12 @@ textarea {
     src: url(fonts/TARNAREG.ttf) format("truetype");
 }
 
+
+@font-face{
+    font-family: "TarzanaB";
+    src: url(fonts/TARNABOL.ttf) format("truetype");
+}
+
 @font-face{
     font-family: "OpenSans";
     src: url(fonts/OpenSans-Regular.ttf) format("truetype");
@@ -326,3 +343,380 @@ textarea {
     font-family: "OpenSansSB";
     src: url(fonts/OpenSans-Semibold.ttf) format("truetype");
 }
+
+
+
+html body h1,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body h6
+{
+    font-family: "TarzanaB", "Browallia New", sans-serif;
+    color: #0095da;
+    font-size: 30px;
+}
+
+p
+{
+    font-family: "OpenSansL", sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+.menu
+{
+    font-family: "TarzanaB", "Browallia New", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.figcaption
+{
+    background: url(img/hi-bg-img-home.png);
+}
+
+.radius
+{
+    border-radius: 0 0 3px 0;
+}
+
+.address
+{
+    width: 254px;
+    height: 254px;
+    display: inline-block;
+    background: url(img/hi-bg-white-ball-footer.png);
+}
+
+.address p
+{
+    font-family: "OpenSans", sans-serif;
+    padding-top: 127px;
+    line-height: 23px;
+    color: #ed1c24;
+}
+
+.address span
+{
+    line-height: 35px;
+}
+
+blockquote
+{
+    font-family: Luna;
+    font-size: 26px;
+    color: #999999;
+    border: none !important;
+    line-height: 39px;
+    margin: 0 !important;
+}
+
+
+
+
+#header
+{
+    /*padding: 0 !important;*/
+    background: #0086c4;
+    height: 120px;
+}
+
+#header #bg-logo
+{
+    background: #0095da;
+    /*padding: 23px 0 22px 20px;*/
+}
+
+#header #logo
+{
+    padding: 23px 0 22px 20px;
+    width: 218px;
+    height: 75px;
+    text-indent: -9999px;
+    background: url(img/hi-logo-branca.png) no-repeat center;
+    float: left;
+
+}
+
+#header #menu
+{
+    /*width: 68.08510638297872%;*/
+    background: #0086c4;
+    /*margin: 0 !important;*/
+}
+
+#header #menu ul
+{
+    float: right;
+    margin: 0;
+}
+
+#header #menu ul li
+{
+    float: left;
+    display: inline-block;
+    height: 117px;
+}
+
+#header #menu ul li:hover
+{
+    /*background: url(img/hi-bg-menu-hover.png) center no-repeat;*/
+    border-bottom: 3px solid white;
+    background-color: #0095da;
+}
+
+#header #menu ul li a
+{
+    display: inline-block;
+    color: white;
+    padding: 60px 30px 50px 30px;
+}
+
+#header #menu ul li a:hover
+{
+    text-decoration: none;
+}
+
+/*------------------------Fim Header------------------------*/
+
+
+#hightouch
+{
+    height: 100%;
+}
+
+
+#hightouch #section-case-home
+{
+    height: 100%;
+}
+
+#hightouch #wrap-case-home
+{
+    padding: 0 !important;
+    height: 100%;
+}
+
+#hightouch #wrap-case-home .row-fluid
+{
+    height: 100%;
+}
+
+#hightouch #wrap-case-home #img-case
+{
+    width: 100%;
+    height: 100%;
+    background: url(img/hi-img-encontro-leonardo.jpg) no-repeat center 69px black;
+    background-size: cover;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul
+{
+    width: 100%;
+    height: 100%;
+    background: url(img/hi-mascara-azul-home.png);
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada
+{
+    width: 100%;
+    height: 100%;
+    background: url(img/hi-mascara-granulada-home.png);
+    position: relative;
+}
+
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img
+{
+    padding-top: 220px;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img h2
+{
+    padding: 5px 20px 5px 33px;
+    background: red;
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+    float: left;
+    margin: 0;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img button
+{
+    background: #be161d;
+    width: 45px;
+    height: 50px;
+    border: none;
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img #btn-right
+{
+    padding-left: 0px;
+    padding-right: 8px;
+
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption
+{
+    width: 422px;
+    height: 200px;
+    margin-top: 60px;
+    padding-left: 33px;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption h2
+{
+    color: white;
+    font-size: 34px;
+    padding-top: 10px;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption p
+{
+    font-family: "OpenSans", sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada span
+{
+    width: 71px;
+    height: 71px;
+    display: block;
+    background: url(img/hi-icon-role-ball.png);
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    margin-left: -35px;
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 53px;
+}
+
+/*--------------------------Fim Case Home--------------------------*/
+
+
+
+#hightouch #wrap-solucoes-home
+{
+    text-align: center;
+    padding-top: 70px;
+}
+
+#hightouch #wrap-solucoes-home h2
+{
+    text-transform: uppercase;
+    font-size: 26px;
+    background: url(img/hi-bg-titulo-solucoes.png) no-repeat center;
+}
+
+
+#hightouch #wrap-solucoes-home article
+{
+    height: 350px;
+    margin-top: 75px;
+}
+
+
+/*---------------------Fim Soluções Home---------------------*/
+
+
+
+#hightouch #wrap-conheca-nos
+{
+    width: 100%;
+    height: 452px;
+    background: url(img/hi-bg-coneca-nos.png) center top;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+}
+
+
+#hightouch #wrap-conheca-nos .row-fluid
+{
+    margin-top: 110px;
+}
+
+#hightouch #wrap-conheca-nos img
+{
+    float: right;
+}
+
+#hightouch #wrap-conheca-nos p
+{
+    font-family: "OpenSans", sans-serif;
+    color: #ebbaba;
+    position: relative;
+    margin-top: 47px;
+    line-height: 25px;
+}
+
+#hightouch #wrap-conheca-nos p:before,
+#hightouch #wrap-conheca-nos p:after
+{
+    content: " ";
+    width: 22px;
+    height: 18px;
+    display: block;
+    background: url(img/hi-icon-aspas-left.png);
+    position: absolute;
+    left: -32px;
+    top: -2px;
+}
+
+#hightouch #wrap-conheca-nos p:after
+{
+    background: url(img/hi-icon-aspas-right.png);
+    left: auto;
+    top: auto;
+    right: -32px;
+    bottom: 5px;
+}
+
+#hightouch #wrap-conheca-nos a
+{
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*-----------------------Fim Wrap Conheça-nos-----------------------*/
+
+
+
+#footer-home
+{
+    height: 510px;
+    background: url(img/hi-bg-map-footer.png) center top;
+    margin-top: -12px;
+    text-align: center;
+}
+
+#footer-home .address
+{
+    background: url(img/hi-bg-azul-ball-footer.png);
+    margin-top: 110px;
+}
+
+#footer-home .address p
+{
+    color: white;
+}
+
+
+
+
+
+
+
