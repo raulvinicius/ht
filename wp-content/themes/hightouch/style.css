@@ -105,6 +105,33 @@ textarea {
    ========================================================================== */
 
 
+.animado-02-in-out
+{
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+.animado-04-in-out
+{
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+    -ms-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+}
+
+.animado-06-in-out
+{
+    -webkit-transition: 0.6s all ease-in-out;
+    -moz-transition: 0.6s all ease-in-out;
+    -o-transition: 0.6s all ease-in-out;
+    -ms-transition: 0.6s all ease-in-out;
+    transition: 0.6s all ease-in-out;
+}
+
 
 
 
@@ -345,6 +372,27 @@ textarea {
 }
 
 
+@-webkit-keyframes sobe-desce {
+  0%    { bottom: 11px; }
+  50%   { bottom: 20px; }
+  100%  { bottom: 11px; }
+}
+@-moz-keyframes sobe-desce {
+  0%    { bottom: 11px; }
+  50%   { bottom: 20px; }
+  100%  { bottom: 11px; }
+}
+@-o-keyframes sobe-desce {
+  0%    { bottom: 11px; }
+  50%   { bottom: 20px; }
+  100%  { bottom: 11px; }
+}
+@keyframes sobe-desce {
+  0%    { bottom: 11px; }
+  50%   { bottom: 20px; }
+  100%  { bottom: 11px; }
+}
+
 
 html body h1,
 html body h2,
@@ -419,7 +467,7 @@ blockquote
 #header
 {
     /*padding: 0 !important;*/
-    background: #0086c4;
+    background: url('img/hi-fundo-header.jpg');
     height: 120px;
 }
 
@@ -445,6 +493,7 @@ blockquote
     /*width: 68.08510638297872%;*/
     background: #0086c4;
     /*margin: 0 !important;*/
+    height: 120px;
 }
 
 #header #menu ul
@@ -504,6 +553,23 @@ blockquote
     height: 100%;
 }
 
+#hightouch #wrap-case-home ul
+{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#hightouch #wrap-case-home ul li
+{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
 #hightouch #wrap-case-home #img-case
 {
     width: 100%;
@@ -553,6 +619,25 @@ blockquote
     display: inline-block;
     float: left;
     padding-left: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img button:hover
+{
+    background: #9C0A10;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img button:hover i
+{
+    margin-top: -2px;
+    display: block;
+}
+
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img button:active i
+{
+    margin-top: 2px;
+    display: block;
 }
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img #btn-right
@@ -586,6 +671,12 @@ blockquote
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada span
 {
+    -webkit-animation: sobe-desce 2s infinite; /* Safari 4+ */
+    -moz-animation:    sobe-desce 2s infinite; /* Fx 5+ */
+    -o-animation:      sobe-desce 2s infinite; /* Opera 12+ */
+    animation:         sobe-desce 2s infinite; /* IE 10+ */
+    animation-timing-function: ease-in-out;
+
     width: 71px;
     height: 71px;
     display: block;
@@ -609,6 +700,9 @@ blockquote
 {
     text-align: center;
     padding-top: 70px;
+    background: white;
+    z-index: 2;
+    position: relative;
 }
 
 #hightouch #wrap-solucoes-home h2
@@ -622,7 +716,18 @@ blockquote
 #hightouch #wrap-solucoes-home article
 {
     height: 350px;
-    margin-top: 75px;
+    margin-top: 55px;
+}
+
+#hightouch #wrap-solucoes-home article:hover figure
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#hightouch #wrap-solucoes-home article figure
+{
+    padding-top: 20px;
 }
 
 
@@ -632,7 +737,6 @@ blockquote
 
 #hightouch #wrap-conheca-nos
 {
-    width: 100%;
     height: 452px;
     background: url(img/hi-bg-coneca-nos.png) center top;
     text-align: left;
@@ -685,9 +789,16 @@ blockquote
 #hightouch #wrap-conheca-nos a
 {
     font-family: "Tarzana", "Browallia New", sans-serif;
+    padding: 10px 10px 10px 0;
     font-size: 26px;
     color: white;
     text-decoration: none;
+    display: block;
+}
+
+#hightouch #wrap-conheca-nos a:hover
+{
+    padding: 5px 10px 15px 0;
 }
 
 
@@ -701,6 +812,7 @@ blockquote
     background: url(img/hi-bg-map-footer.png) center top;
     margin-top: -12px;
     text-align: center;
+    position: relative;
 }
 
 #footer-home .address
