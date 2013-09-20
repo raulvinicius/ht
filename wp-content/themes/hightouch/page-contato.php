@@ -6,6 +6,10 @@
 
 <?php else : ?>
 
-	<h1>Oi, eu sou Contato</h1>
+
+	<?php get_header(); ?>
+	
+
+	<?php get_footer(); ?>
 
 <?php endif; ?>
