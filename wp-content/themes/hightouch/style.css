@@ -365,6 +365,18 @@ p
     color: #666666;
 }
 
+
+blockquote
+{
+    font-family: Luna;
+    font-size: 26px;
+    color: #999999;
+    border: none !important;
+    line-height: 39px;
+    margin: 0 !important;
+}
+
+
 .menu
 {
     font-family: "TarzanaB", "Browallia New", sans-serif;
@@ -372,15 +384,44 @@ p
     color: white;
 }
 
+
 .figcaption
 {
+    width: 417px;
+    padding-left: 33px;
     background: url(img/hi-bg-img-home.png);
 }
+
+.figcaption h2
+{
+    color: white;
+    font-size: 34px;
+}
+
+.figcaption h3
+{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.figcaption p
+{
+    font-family: "OpenSans", sans-serif;
+    color: white;
+}
+
 
 .radius
 {
     border-radius: 0 0 3px 0;
 }
+
+.radius-left
+{
+    border-radius: 3px 0 0 3px;
+}
+
 
 .address
 {
@@ -403,22 +444,108 @@ p
     line-height: 35px;
 }
 
-blockquote
+
+.icone-fale
 {
-    font-family: Luna;
-    font-size: 26px;
-    color: #999999;
-    border: none !important;
-    line-height: 39px;
-    margin: 0 !important;
+    width: 276px;
+    height: 56px;
+    display: block;
+    margin: 64px auto 73px auto;
+}
+
+.icone-fale:hover
+{
+    text-decoration: none;
+}
+
+.icone-fale i
+{
+    width: 72px;
+    height: 56px;
+    float: left;
+    background: #760e12;
+    display: inline-block;
+}
+
+.icone-fale i img
+{
+    margin-top: 8px;
+}
+
+.icone-fale p
+{
+    width: 204px;
+    height: 56px;
+    float: left;
+    display: inline-block;
+    font-family: "TarzanaB", "Browallia New", sans-serif;
+    text-transform: uppercase;
+    line-height: 56px;
+    font-size: 24px;
+    color: #ed1c24;
+    background: white;
+    margin: 0;
+}
+
+
+.ver-mais-red,
+.ver-mais-white
+{
+    width: 125px;
+    height: 34px;
+    text-align: center;
+    display: block;
+}
+
+.ver-mais-red i,
+.ver-mais-white i,
+.ver-mais-red p,
+.ver-mais-white p
+{
+    height: 34px;
+    display: inline-block;
+    float: left;
+}
+
+.ver-mais-red i,
+.ver-mais-white i
+{
+    width: 54px;
+    background: url(img/hi-icon-ver-mais.png) center no-repeat #be161d;
+}
+
+.ver-mais-red p,
+.ver-mais-white p
+{
+    width: 71px !important;
+    height: 34px;
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    background: #ed1c24;
+    line-height: 30px !important;
+    font-size: 18px;
+    color: white;
+}
+
+.ver-mais-white i
+{
+    background-color: #620e11;
+}
+
+.ver-mais-white p
+{
+    background: white;
+    color: #ed1c24;
 }
 
 
 
 
+
+
+/*---------------------------HEADER----------------------------*/
+
 #header
 {
-    /*padding: 0 !important;*/
     background: #0086c4;
     height: 120px;
 }
@@ -426,7 +553,6 @@ blockquote
 #header #bg-logo
 {
     background: #0095da;
-    /*padding: 23px 0 22px 20px;*/
 }
 
 #header #logo
@@ -442,9 +568,7 @@ blockquote
 
 #header #menu
 {
-    /*width: 68.08510638297872%;*/
     background: #0086c4;
-    /*margin: 0 !important;*/
 }
 
 #header #menu ul
@@ -462,7 +586,6 @@ blockquote
 
 #header #menu ul li:hover
 {
-    /*background: url(img/hi-bg-menu-hover.png) center no-repeat;*/
     border-bottom: 3px solid white;
     background-color: #0095da;
 }
@@ -512,7 +635,8 @@ blockquote
     background-size: cover;
 }
 
-#hightouch #wrap-case-home #img-case #mascara-azul
+#hightouch #wrap-case-home #img-case #mascara-azul,
+#hightouch #wrap-case-principal #img-case #mascara-azul
 {
     width: 100%;
     height: 100%;
@@ -564,23 +688,17 @@ blockquote
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption
 {
-    width: 422px;
     height: 200px;
     margin-top: 60px;
-    padding-left: 33px;
 }
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption h2
 {
-    color: white;
-    font-size: 34px;
     padding-top: 10px;
 }
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption p
 {
-    font-family: "OpenSans", sans-serif;
-    color: white;
     margin-bottom: 15px;
 }
 
@@ -634,7 +752,7 @@ blockquote
 {
     width: 100%;
     height: 452px;
-    background: url(img/hi-bg-coneca-nos.png) center top;
+    background: url(img/hi-bg-conheca-nos.png) center top;
     text-align: left;
     position: relative;
     z-index: 10;
@@ -695,10 +813,56 @@ blockquote
 
 
 
+#hightouch #wrap-case-principal
+{
+    height: 515px;
+    padding: 0;
+    margin-top: 110px;
+}
+
+#hightouch #wrap-case-principal #img-case 
+{
+    height: 515px;
+    background: url(img/hi-img-encontro-leonardo-cases.jpg) no-repeat top center;
+}
+
+#hightouch #wrap-case-principal #img-case .figcaption
+{
+    height: 100%;
+}
+
+#hightouch #wrap-case-principal #img-case .figcaption h2
+{
+    font-size: 44px;
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    padding-top: 45px;
+}
+
+#hightouch #wrap-case-principal #img-case .figcaption p
+{
+    width: 400px;
+    line-height: 23px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+#footer
+{
+    height: 529px;
+    background: url(img/hi-bg-map-footer-red.jpg) center top;
+    text-align: center;
+    margin-top: -12px;
+}
+
 #footer-home
 {
     height: 510px;
-    background: url(img/hi-bg-map-footer.png) center top;
+    background: url(img/hi-bg-map-footer.jpg) center top;
     margin-top: -12px;
     text-align: center;
 }
@@ -713,10 +877,3 @@ blockquote
 {
     color: white;
 }
-
-
-
-
-
-
-
