@@ -78,9 +78,94 @@
                 </div>
             </section>
 
+
             <section>   
-                <div></div>
+                <div id="wrap-topo-case" class="container-fluid">
+                    <div class="container">
+                        <div class="row-fluid">
+
+                            <div class="span5">
+                                <figure><img src="<?php bloginfo("template_url") ?>/img/hi-icon-cases.png"></figure>
+                            </div>
+
+                            <div class="span5">
+                                <p>Preparamos alguns dos nossos principais cases para você conhecer mais do nosso trabalho.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </section>
+
+
+            <section>   
+                <div id="wrap-case" class="container-fluid">
+                    <div class="row-fluid">
+
+                        <ul id="grade-cases">
+
+                            <li class="span4">
+                                <div class="case-normal">
+                                    <h3>2012</h3>
+                                    <figure><img class="img-logo" src="<?php bloginfo("template_url") ?>/img/hi-logo-case-vw.png"></figure>
+                                </div>
+
+                                <div class="case-hover">
+                                    <h3>2012</h3>
+                                    <h2>Encontro Leonardo Da Vinci</h2>
+                                    <p>Podemos já vislumbrar o modo pelo qual o novo modelo estrutural aqui preconizado assume importantes posições no estabelecimento do impacto na agilidade decisória.</p>
+                                    <a href="#" class="ver-mais-white"><i class="radius-left" ></i><p class="radius" >ver case</p></a>
+
+                                </div>
+
+                                <span class="tag-social"></span>
+                            </li>
+
+                            <li class="span4">
+                                <div class="case-normal">
+                                    <h3>2012</h3>
+                                    <figure><img class="img-logo" src="<?php bloginfo("template_url") ?>/img/hi-logo-case-vw.png"></figure>
+                                </div>
+
+                                <div class="case-hover">
+                                    <h3>2012</h3>
+                                    <h2>Encontro Leonardo Da Vinci</h2>
+                                    <p>Podemos já vislumbrar o modo pelo qual o novo modelo estrutural aqui preconizado assume importantes posições no estabelecimento do impacto na agilidade decisória.</p>
+                                    <a href="#" class="ver-mais-white"><i class="radius-left" ></i><p class="radius" >ver case</p></a>
+
+                                </div>
+
+                                <span class="tag-social"></span>
+                            </li>
+
+                            <li class="span4">
+                                <div class="case-normal">
+                                    <h3>2012</h3>
+                                    <figure><img class="img-logo" src="<?php bloginfo("template_url") ?>/img/hi-logo-case-vw.png"></figure>
+                                </div>
+
+                                <div class="case-hover">
+                                    <h3>2012</h3>
+                                    <h2>Encontro Leonardo Da Vinci</h2>
+                                    <p>Podemos já vislumbrar o modo pelo qual o novo modelo estrutural aqui preconizado assume importantes posições no estabelecimento do impacto na agilidade decisória.</p>
+                                    <a href="#" class="ver-mais-white"><i class="radius-left" ></i><p class="radius" >ver case</p></a>
+
+                                </div>
+
+                                <span class="tag-social"></span>
+                            </li>
+
+                        <div class="clearfix"></div>
+                        </ul>
+
+
+                        <div class="bg-fim-cases"></div>
+
+
+                    </div>
+                </div>
+            </section>
+
 
 
 
