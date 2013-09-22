@@ -572,6 +572,7 @@ blockquote
     line-height: 30px !important;
     font-size: 18px;
     color: white;
+    margin-left: 0 !important;
 }
 
 .ver-mais-white i
@@ -582,7 +583,7 @@ blockquote
 .ver-mais-white p
 {
     background: white;
-    color: #ed1c24;
+    color: #ed1c24 !important;
 }
 
 .tip
@@ -944,7 +945,7 @@ blockquote
 
 #hightouch #wrap-case-principal #img-case 
 {
-    height: 515px;
+    height: 505px;
     background: url(img/hi-img-encontro-leonardo-cases.jpg) no-repeat top center;
 }
 
@@ -958,6 +959,7 @@ blockquote
     font-size: 44px;
     font-family: "Tarzana", "Browallia New", sans-serif;
     padding-top: 45px;
+    font-weight: normal;
 }
 
 #hightouch #wrap-case-principal #img-case .figcaption p
@@ -966,6 +968,190 @@ blockquote
     line-height: 23px;
     margin-bottom: 60px;
 }
+
+/*--------------------------------Fim Case principal--------------------------------*/
+
+
+#hightouch #wrap-topo-case
+{
+    height: 340px;
+}
+
+#hightouch #wrap-topo-case .row-fluid
+{
+    margin-top: 99px;
+}
+
+#hightouch #wrap-topo-case figure
+{
+    margin: 0;
+}
+
+#hightouch #wrap-topo-case img
+{
+    width: 138px;
+    height: 138px;
+    float: right;
+    display: inline-block;
+}
+
+#hightouch #wrap-topo-case p
+{
+    margin-top: 44px;
+    line-height: 25px;
+}
+
+/*--------------------------------Fim Wrap Topo Case--------------------------------*/
+
+
+#hightouch #wrap-case
+{
+    padding: 0;
+}
+
+#hightouch #wrap-case #grade-cases
+{
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+#hightouch #wrap-case #grade-cases
+{
+    width: 100%;
+    background: url(img/hi-bg-cases.jpg);
+}
+
+#hightouch #wrap-case #grade-cases li
+{
+    width: 33% !important;
+    height: 407px;
+    margin: 3px 0.15%;
+    position: relative;
+}
+
+#hightouch #wrap-case #grade-cases li h2,
+#hightouch #wrap-case #grade-cases li h3
+{
+    margin: 24px 0 30px 33px;
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    font-size: 46px;
+    color: #a1a1a1;
+    font-weight: normal;
+}
+
+#hightouch #wrap-case #grade-cases li h2
+{
+    width: 330px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#hightouch #wrap-case #grade-cases li p
+{
+    width: 395px;
+    color: #f1d6d7;
+    margin-left: 33px;
+    line-height: 24px;
+}
+
+#hightouch #wrap-case #grade-cases li .ver-mais-white
+{
+    margin-left: 33px;
+    margin-top: 33px;
+}
+
+#hightouch #wrap-case #grade-cases li .case-normal,
+#hightouch #wrap-case #grade-cases li .case-hover
+{
+    height: 407px;
+    background: url(img/hi-bg-cases.png);
+    padding-top: 0.1px;
+}
+
+#hightouch #wrap-case #grade-cases li .case-normal figure,
+#hightouch #wrap-case #grade-cases li .case-normal .img-logo
+{
+    width: 301px;
+    height: 95px;
+}
+
+#hightouch #wrap-case #grade-cases li .case-normal figure
+{
+    height: 313px;
+    margin: 0 auto;
+}
+
+#hightouch #wrap-case #grade-cases li .case-normal .img-logo
+{
+    top: 40%;
+    position: absolute;
+}
+
+
+#hightouch #wrap-case #grade-cases li .tag-social
+{
+    width: 107px;
+    height: 107px;
+    display: block;
+    background: url(img/hi-tag-social.png) no-repeat top center;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+
+#hightouch #wrap-case #grade-cases li .case-hover
+{
+    background: url(img/hi-bg-cases-hover.png);
+    display: none;
+}
+
+#hightouch #wrap-case #grade-cases li .case-hover h3
+{
+    color: #eabcbd;
+}
+
+
+
+#hightouch #wrap-case #grade-cases li:hover .case-normal
+{
+    display: none;
+}
+
+#hightouch #wrap-case #grade-cases li:hover .case-hover
+{
+    display: block;
+}
+
+#hightouch #wrap-case #grade-cases li:hover .tag-social
+{
+    background-position: bottom center;
+}
+
+
+
+#hightouch #wrap-case .bg-fim-cases
+{
+    height: 12px;
+    display: block;
+    position: relative;
+    background: url(img/hi-bg-seta-fim-case.png) center;
+}
+
+
+
+/*-------------------------Fim Cases-------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 
 /*PAGE CONTATO*/
