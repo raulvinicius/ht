@@ -1,3 +1,7 @@
+    <?php if ( !strpos( $_SERVER[ "REQUEST_URI" ], "contato" ) ) : ?>
+
+
+
         <footer>
             <div id="footer-home" class="container-fluid">
                 <div class="row-fluid">
@@ -16,6 +20,7 @@
             </div>
         </footer>
 
+    <?php endif; ?>
 
     </section>     <!-- end hightouch -->
 
@@ -26,6 +31,8 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
  -->
         <script>window.jQuery || document.write('<script src="<?php bloginfo('template_url') ?>/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery.form.js"></script>
+        <script src="<?php bloginfo('template_url') ?>/js/jquery.validate.min.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/plugins.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/main.js"></script>
         <script src="<?php bloginfo('template_url') ?>/js/bootstrap.js"></script>

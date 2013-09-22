@@ -585,6 +585,17 @@ blockquote
     color: #ed1c24;
 }
 
+.tip
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
 
 
 
@@ -787,7 +798,7 @@ blockquote
     margin-bottom: 15px;
 }
 
-#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada span
+#hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #lbl-role
 {
     -webkit-animation: sobe-desce 2s infinite; /* Safari 4+ */
     -moz-animation:    sobe-desce 2s infinite; /* Fx 5+ */
@@ -957,7 +968,113 @@ blockquote
 }
 
 
+/*PAGE CONTATO*/
 
+#page-contato #topo-bg-form
+{
+    background: url('img/hi-topo-bg-form-contato.png');
+    margin-top: -45px;
+    height: 12px;
+    position: relative;
+}
+
+#page-contato #wrap-form
+{
+    background: url('img/hi-bg-form-contato.jpg');
+    height: 926px;
+    position: relative;
+}
+
+#page-contato #wrap-form #wrap-endereco
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#page-contato #wrap-form #wrap-endereco figure
+{
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+#page-contato #wrap-form #wrap-endereco address p
+{
+    line-height: 22px;
+    color: white;
+}
+
+#page-contato #wrap-form #form
+{
+    background: white;
+    height: 696px;
+}
+
+#page-contato #wrap-form #form .alert
+{
+    font-family: "OpenSans" sans-serif;
+    display: none;
+}
+
+#page-contato #wrap-form #form form
+{
+    width: 300px;
+    margin: 50px auto 0;
+}
+
+#page-contato #wrap-form #form form input,
+#page-contato #wrap-form #form form textarea
+{
+    font-family: "OpenSans" sans-serif;
+
+    background: url('img/hi-bg-input.jpg') repeat-x #f7f7f7;
+    height: 30px;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#page-contato #wrap-form #form form textarea
+{
+    resize: none;
+    height: 120px;
+    padding-top: 10px;
+}
+
+#page-contato #wrap-form #form form input[type="submit"]
+{
+    width: 100%;
+    background-image: none;
+    background: #ed1c24;
+    border: 0;
+    height: 40px;
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#page-contato #wrap-form #form form input[type="submit"]:hover
+{
+    background: #9C0A10;
+}
+
+#page-contato #wrap-form #form form label
+{
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    color: #0095da;
+    font-size: 20px;
+}
+
+#page-contato #wrap-form #form form label.error
+{
+    color: #ed1c24;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+/*FIM PAGE CONTATO*/
 
 
 

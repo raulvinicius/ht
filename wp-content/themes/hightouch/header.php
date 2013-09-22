@@ -29,7 +29,7 @@
                 <div class="row-fluid">
 
                     <div id="bg-logo" class="span3">
-                        <a id="logo" href="#">
+                        <a id="logo" href="<?php bloginfo('url') ?>">
                             <h1>hightouch</h1>
                             <h2>Viva sua empresa</h2>
                         </a>
@@ -41,7 +41,7 @@
                                 <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/hi">[hi]</a></li>
                                 <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/cases">Cases</a></li>
                                 <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/solucoes">Soluções</a></li>
-                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/contatao">Contato</a></li>
+                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/contato">Contato</a></li>
                             </ul>
                         </nav>
                     </div>

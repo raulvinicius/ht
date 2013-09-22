@@ -25,8 +25,8 @@
 
                                         <div id="title-img">
                                             <h2>[ Últimos cases ]</h2>
-                                            <button href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
-                                            <button class="radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
+                                            <button class="animado-02-in-out" href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
+                                            <button class="animado-02-in-out radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
                                         </div>
 
                                         <div class="figcaption radius">
@@ -35,8 +35,10 @@
                                             <a href="#"><img src="<?php bloginfo("template_url") ?>/img/hi-icon-ver-mais-home.png"></a>
                                         </div>
 
-                                        <span>role</span>
+                                        <span id="lbl-role">role</span>
 
+<!--                                         <span class="tip" data-toggle="popover" data-content="Palestrante Mario Sergio Cortella" data-original-title="Dica" style="top: 70%; left: 60%  "></span>
+ -->
                                     </div>
                                 </div>
                             </div>
@@ -50,8 +52,8 @@
 
                                         <div id="title-img">
                                             <h2>[ Últimos cases ]</h2>
-                                            <button href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
-                                            <button class="radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
+                                            <button class="animado-02-in-out" href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
+                                            <button class="animado-02-in-out radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
                                         </div>
 
                                         <div class="figcaption radius">
@@ -60,7 +62,7 @@
                                             <a href="#"><img src="<?php bloginfo("template_url") ?>/img/hi-icon-ver-mais-home.png"></a>
                                         </div>
 
-                                        <span>role</span>
+                                        <span id="lbl-role">role</span>
 
                                     </div>
                                 </div>
@@ -76,8 +78,8 @@
 
                                         <div id="title-img">
                                             <h2>[ Últimos cases ]</h2>
-                                            <button href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
-                                            <button class="radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
+                                            <button class="animado-02-in-out" href="#myCarousel" data-slide="prev"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-left.png"></i></button>
+                                            <button class="animado-02-in-out radius" href="#myCarousel" data-slide="next" id="btn-right"><i><img src="<?php bloginfo("template_url") ?>/img/hi-icon-seta-right.png"></i></button>
                                         </div>
 
                                         <div class="figcaption radius">
@@ -86,7 +88,7 @@
                                             <a href="#"><img src="<?php bloginfo("template_url") ?>/img/hi-icon-ver-mais-home.png"></a>
                                         </div>
 
-                                        <span>role</span>
+                                        <span id="lbl-role">role</span>
 
                                     </div>
                                 </div>
@@ -118,7 +120,7 @@
                                             <a href="#"><img src="<?php bloginfo("template_url") ?>/img/hi-icon-ver-mais-home.png"></a>
                                         </div>
 
-                                        <span>role</span>
+                                        <span id="lbl-role">role</span>
 
                                     </div>
                                 </div>
@@ -141,7 +143,7 @@
                                             <a href="#"><img src="<?php bloginfo("template_url") ?>/img/hi-icon-ver-mais-home.png"></a>
                                         </div>
 
-                                        <span>role</span>
+                                        <span id="lbl-role">role</span>
 
                                     </div>
                                 </div>
