@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>HighTouch</title>
+        <title><?php echo ( $post->post_name != '' ) ? get_the_title() . " | " : ""; ?>[hi]</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -28,20 +28,41 @@
             <div id="header" class="container-fluid navbar-fixed-top">
                 <div class="row-fluid">
 
-                    <div id="bg-logo" class="span3">
+                    <div id="bg-logo" class="span12">
                         <a id="logo" href="<?php bloginfo('url') ?>">
-                            <h1>hightouch</h1>
-                            <h2>Viva sua empresa</h2>
+                            <h1>[hi]</h1>
+                            <h2>Desafie-se</h2>
                         </a>
                     </div>
 
-                    <div id="menu" class="span9 menu">
-                        <nav>
+                </div>
+                <div id="ico-open-menu" data-trigger="menu">
+                    <a href="#">
+                        <img src="<?php bloginfo( 'template_url' ) ?>/img/hi-ico-open-menu.png">
+                    </a>
+                </div>
+                <div class="row-fluid">
+
+                    <div id="menu" class="span12 menu">
+                        <nav class="animado-04-in-out">
                             <ul>
-                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/hi">[hi]</a></li>
-                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/cases">Cases</a></li>
-                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/solucoes">Soluções</a></li>
-                                <li class="animado-02-in-out"><a href="<?php bloginfo('url') ?>/contato">Contato</a></li>
+                                <li class="link animado-02-in-out"><a href="<?php bloginfo('url') ?>/hi">[hi]</a>
+                                </li><li class="link animado-02-in-out"><a href="<?php bloginfo('url') ?>/cases">Cases</a>
+                                </li><li class="space link dropdown animado-02-in-out">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluções</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="animado-02-in-out" href="<?php bloginfo('url') ?>/solucoes/hi-comemoracao">[hi] Comemoração</a>
+                                        </li>
+                                        <li>
+                                            <a class="animado-02-in-out" href="<?php bloginfo('url') ?>/solucoes/hi-corporativo">[hi] Corporativo</a>
+                                        </li>
+                                        <li>
+                                            <a class="animado-02-in-out" href="<?php bloginfo('url') ?>/hi-school">[hi] School</a>
+                                        </li>
+                                    </ul>
+                                </li><li class="link animado-02-in-out"><a href="<?php bloginfo('url') ?>/contato">Contato</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>

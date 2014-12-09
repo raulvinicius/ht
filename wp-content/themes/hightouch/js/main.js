@@ -1,29 +1,39 @@
 $(document).ready(function()
 {
 
+	//ANIMAÇÃO POR SCROLL
+
+	$( '#ico-open-menu' ).bind('click', function(e){
+		e.preventDefault();
+        varT = '#' + $( this ).attr('data-trigger');
+        if ( $( varT ).hasClass('open') )
+        {
+        	$( varT ).removeClass('open');
+        	$( varT + ' nav' ).css('right', '-300px');
+        }
+        else
+        {
+        	$( varT ).addClass('open');
+        	$( varT + ' nav' ).css('right', '0');
+        }
+    });
+
 	$( window ).scroll(function() 
 	{
-	  $('#section-case-home #img-case').css('top',  $(window).scrollTop() * -0 );
+
+		$('.hided').each(function()
+		{
+			if( $( window ).scrollTop() + ( $( window ).height() * 0.8 ) > $(this).offset().top )
+			{
+				$(this).addClass('appeared').removeClass('hided');
+			}
+		})
+
 	});
 
-	$( window ).resize(function()
-	{
-		console.log($('#section-case-home #img-case span'));
-		if( $( window ).width() < 721)
-		{
-			$('#section-case-home #img-case span').text("arraste")
-		}
-		else
-		{
-			$('#section-case-home #img-case span').text("role")
-		}
+	$( window ).scroll();
 
-	})
-
-	$('.carousel').carousel({
-  		interval: 7000,
-  		pause: "none"
-	})
+	nivelaHResultados();
 
 	$('.tip').popover({
 		animation: true
@@ -84,6 +94,28 @@ $(document).ready(function()
 	})
 
 })
+
+
+function nivelaHResultados()
+{
+	var hSpan = 0;
+
+	if( $('.page-single-case #wrap-objetivo-case .span4:first-child').css('float') == 'none' )
+	{
+		$('.page-single-case #wrap-objetivo-case .span4').css({
+			'height': 'auto'
+		});
+	}
+	else
+	{
+		$('.page-single-case #wrap-objetivo-case .span4').each(function()
+		{
+			hSpan = Math.max($(this).height(), hSpan);
+		})
+		$('.page-single-case #wrap-objetivo-case .span4').height(hSpan);
+	}
+
+}
 
 
 function contatoOk (data)

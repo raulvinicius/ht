@@ -2,15 +2,15 @@
 
 	<?php $tUrl = get_bloginfo("template_url"); ?>
 
-	<?php require( "frontend/contato.php" ) ?>
+	<?php require( "frontend/estagio.php" ) ?>
 
 <?php else : ?>
 
 
 	<?php get_header(); ?>
 	<section id="page-contato">
-
-		<iframe id="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt&amp;geocode=&amp;q=hightoush,+bras%C3%ADlia,+df&amp;draggable=false&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=53.829089,119.970703&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=-15.804683,-47.901764&amp;spn=0.00991,0.013733&amp;z=16&amp;iwloc=&amp;output=embed"></iframe>
+		<iframe id="map" width="100%" height="546" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3838.9262935692777!2d-47.899727!3d-15.807839999999967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ac728ff2ec7%3A0x5c223cb89aa0c021!2zW2hpXQ!5e0!3m2!1spt-BR!2sbr!4v1409514412296"></iframe>
+		<!-- <iframe id="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=-15.807975,+-47.899701&amp;aq=&amp;sll=-15.807975,-47.899701&amp;sspn=0.009425,0.016512&amp;ie=UTF8&amp;t=m&amp;z=16&amp;hq=&amp;output=embed"></iframe> -->
 
 		<div id="topo-bg-form" class="container-fluid">
 		</div>	
@@ -28,13 +28,13 @@
 		    		
 					<div class="span7">
 						<address>
-							<p>E-mail: <strong>contato@hightouch.com.br</strong><br>
-							Tel: <strong>61.3326.2201</strong>
+							<p>E-mail: <strong>ola@souhi.com.br</strong><br>
+							Fone: <strong>61.3244.2565</strong>
 							</p>
 							<p>
-							Centro Empresarial Santa Cruz<br>
-							SEPS 705/905 Bl. A Sala 142<br>
-							72390-055 - Brasília - DF</p>
+							CRS Quadra 505,<br>
+							Bloco C, Entrada 14<br>
+							70350-530 - Brasília-DF</p>
 						</address>
 					</div>		    		
 		    		

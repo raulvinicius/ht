@@ -134,6 +134,36 @@ textarea {
 
 
 
+.animado-delay-04
+{
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -ms-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.animado-delay-06
+{
+    -webkit-transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.animado-delay-08
+{
+    -webkit-transition-delay: 0.8s;
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+
+
+
 
 
 
@@ -258,6 +288,759 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
+@media (max-height: 800px) {
+
+    html body #hightouch #wrap-case-home p
+    {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-height: 666px) {
+
+    html body #hightouch #wrap-case-home #produtos .ico-produto
+    {
+        margin-bottom: 10px;
+    }
+    
+    html body #hightouch #wrap-case-home #produtos #ou
+    {
+        margin-top: -65px;
+    }
+
+    html body #hightouch #wrap-case-home #produtos .ico-produto,
+    html body #hightouch #wrap-case-home #produtos .bg-ico,
+    html body #hightouch #wrap-case-home #produtos .layer1,
+    html body #hightouch #wrap-case-home #produtos .layer2
+    {
+        width: 116px;
+        height: 130px;
+        background: url("img/hi-bg-ico-produtos-home-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #comemoracao .layer1
+    {
+        background: url("img/hi-ico-comemoracao-sombra-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #comemoracao .layer2
+    {
+        background: url("img/hi-ico-comemoracao-bolo-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #corporativo .layer1
+    {
+        background: url("img/hi-ico-corporativo-sombra-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #corporativo .layer2
+    {
+        background: url("img/hi-ico-corporativo-rocket-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #hischool .layer1
+    {
+        background: url("img/hi-ico-hischool-sombra-116x130.png") no-repeat center;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #hischool .layer2
+    {
+        background: url("img/hi-ico-hischool-coracao-116x130.png") no-repeat center;
+    }
+
+}
+
+@media (max-width: 1110px) {
+
+    html body #hightouch #wrap-case-home p
+    {
+        font-size: 28px;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial #secundario
+    {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    html body .corporativo #desc-modulos .bg-azul
+    {
+        left: -29.5%
+    }
+
+    html body .hischool #escolas ul li p
+    {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    html body .hischool #mais-escolas ul li
+    {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    html body .hischool #mais-escolas ul li li
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    html body .hischool #contrapartidas ul h2
+    {
+        font-size: 26px;
+        line-height: 28px;
+        padding: 0 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    html body .hischool #contrapartidas ul p
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
+
+@media (max-width: 1280px and min-width: 1025px) {
+    html body .corporativo #desc-modulos .bg-azul
+    {
+        left: -17.5%
+    }
+}
+
+@media (max-width: 1440px) {
+    html body .comemoracao #cases .case h2
+    {
+        font-size: 68px;
+        line-height: 70px;
+    }
+
+    html body .comemoracao #cases .case .wrap-desc p
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    html body .comemoracao #cases #titulo,
+    html body .comemoracao #outros-clientes #titulo,
+    html body .hischool #escolas #titulo,
+    html body .hischool #mais-escolas #titulo,
+    html body .hischool #contrapartidas #titulo
+    {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 979px) {
+
+    html body #header.navbar-fixed-top
+    {
+        margin: 0;
+        position: relative;
+    }
+
+    html body #header #logo
+    {
+        background-position: center;
+        width: 130px;
+    }
+
+    html body #hightouch
+    {
+        margin-top: -104px;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial #principal
+    {
+        font-size: 40px;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial #secundario
+    {
+        font-size: 22px;
+    }
+
+    html body #hightouch #wrap-case-home #produtos .produto .desc
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    html body #hightouch #wrap-case-home ul,
+    html body #hightouch #wrap-case-principal
+    {
+        position: static;
+    }
+
+    html body #hightouch #wrap-case-principal
+    {
+        margin-top: 0;
+    }
+
+    html body #hightouch #wrap-case-home ul #img-case
+    {
+        background-position: top center;
+    }
+
+    
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #lbl-role
+    {
+        right: 10px;
+        left: auto;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img
+    {
+        padding-top: 40px;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption
+    {
+        margin-bottom: 70px;
+    }
+
+    html body #hightouch #wrap-case-home #myCarousel
+    {
+        margin-bottom: 0;
+    }
+
+    html body #hightouch #wrap-conheca-nos .row-fluid
+    {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    html body #hightouch #wrap-conheca-nos figure
+    {
+        text-align: center;
+        margin: 30px 0 60px;
+    }
+
+    html body #hightouch #wrap-conheca-nos img
+    {
+        float: none;
+    }
+
+    html body #hightouch #wrap-conheca-nos p:before, #hightouch #wrap-conheca-nos p
+    {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    html body #hightouch #wrap-conheca-nos p:before,
+    html body #hightouch #wrap-conheca-nos p:after
+    {
+        display: none;
+    }
+
+    /*SINGLE CASE*/
+
+    html body .page-single-case #wrap-descricao-case .container,
+    html body .page-single-case #wrap-resumo-case .container
+    {
+        width: 90%;
+    }
+
+    html body .page-single-case #wrap-resumo-case .span3,
+    html body .page-single-case #wrap-resumo-case .span9
+    {
+        float: left;
+    }
+
+    /*END SINGLE CASE*/
+
+    /*CONTATO*/
+
+    html body #page-contato #map
+    {
+        pointer-events: none;
+        margin-top: -120px;
+    }
+
+    html body #page-contato #wrap-form #wrap-endereco figure
+    {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    html body #page-contato #wrap-form #wrap-endereco
+    {
+        text-align: center;
+    }
+
+    html body #page-contato #wrap-form #form
+    {
+        padding-top: 1px;
+        margin: 0 0 40px;
+        width: 100%;
+    }
+
+    html body #page-contato #wrap-form #wrap-endereco .span5
+    {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    html body #page-contato #wrap-form #wrap-endereco .span7
+    {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    html body #page-contato #wrap-form #wrap-endereco .span7
+    {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /*END CONTATO*/
+
+
+    /*SOBRE A HI*/
+
+    html body #page-hi #wrap-header-hi,
+    html body #page-hi #wrap-header-hi #logo-header-hi
+    {
+        position: static;
+        height: 350px;
+    }
+
+    html body #page-hi #wrap-porque
+    {
+        margin-top: 0;
+    }
+
+    html body #page-hi #wrap-porque h2
+    {
+        width: 100%;
+    }
+
+    /*END SOBRE A HI*/
+
+
+}
+
+@media (max-width: 767px) {
+
+    html body #header
+    {
+        position: fixed !important;
+        height: 65px;
+    }
+
+    html body #header #menu
+    {
+        height: 65px;
+    }
+
+    html body #header #ico-open-menu
+    {
+        display: block;
+        background: none;
+        border:  none;
+        float: right;
+        margin-top: -35px;
+        margin-right: 30px;
+    }
+
+    html body #header #menu nav
+    {
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        right: -300px;
+        bottom: 0;
+        background: #00608E;
+        width: 300px;
+        overflow-y: auto;
+    }
+
+    html body #header #menu nav ul
+    {
+        margin-top: 85px;
+    }
+
+    html body #header #menu nav ul ul
+    {
+        margin-top: 0;
+    }
+
+    html body #header #menu nav ul li.space
+    {
+        margin-left: 0;
+    }
+
+    html body #header #menu nav ul li
+    {
+        display: block;
+        width: 100%;
+    }
+
+    html body #header #menu nav ul li.link a
+    {
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    html body #header #menu ul li.link:hover
+    {
+        background: none;
+        border-bottom-color: transparent;
+    }
+
+    html body #header #menu nav ul li:hover:after
+    {
+        display: none;
+    }
+
+    html body #header #menu nav ul li.dropdown .dropdown-menu
+    {
+        position: static;
+        display: block;
+        float: none;
+        background: none;
+        border: none;
+        box-shadow: none;
+        font-size: 16px;
+        font-style: italic;
+    }
+
+    html body #header #menu nav ul li.dropdown .dropdown-menu li a
+    {
+        padding: 0 0 15px;
+    }
+
+    html body #header #menu nav ul li.dropdown .dropdown-menu
+    {
+
+    }
+
+    html body #header #menu ul li a
+    {
+        padding-top: 30px;
+    }
+
+    html body #header #logo
+    {
+        background-position: center;
+        background-size: contain;
+        height: 15px;
+        margin-top: 10px;
+    }
+
+    html body #hightouch
+    {
+        margin-top: 0;
+        height: auto;
+    }
+
+    html body #hightouch #wrap-topo-case
+    {
+        margin-bottom: 60px;
+    }
+
+    html body #hightouch #wrap-topo-case .row-fluid
+    {
+        margin-top: 80px;
+    }
+
+    html body #hightouch #wrap-topo-case figure
+    {
+        text-align: center;
+    }
+
+    html body #hightouch #wrap-topo-case figure img
+    {
+        float: none !important;
+    }
+
+    html body #hightouch #wrap-topo-case p
+    {
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    html body #hightouch #wrap-case-home
+    {
+        background-position: center;
+        background-size: cover;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial,
+    html body #hightouch #wrap-case-home #produtos
+    {
+        position: static;
+        margin-top: 130px;
+    }
+
+    html body #hightouch #wrap-case-home #produtos
+    {
+        margin-top: 70px;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial #principal
+    {
+        font-size: 60px;
+        line-height: 60px !important;
+        font-family: "ralewayextralight", sans-serif;
+    }
+
+    html body #hightouch #wrap-case-home #produtos
+    {
+        padding-bottom: 100px;
+    }
+
+    html body #hightouch #wrap-case-home #produtos .produto .desc
+    {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    html body #hightouch #wrap-case-home #produtos .span3,
+    html body #hightouch #wrap-case-home #produtos .span1,
+    html body #hightouch #wrap-case-home #produtos #ou
+    {
+        width: 100%;
+    }
+
+    html body #hightouch #wrap-case-home #produtos #ou
+    {
+        height: 90px;
+        margin: 60px 0;
+    }
+
+    html body #hightouch #wrap-case-home #produtos .animado-04-in-out,
+    html body #hightouch #wrap-case-home #produtos .animado-06-in-out
+    {
+        -webkit-transition: 0.2s all ease-in-out;
+        -moz-transition: 0.2s all ease-in-out;
+        -o-transition: 0.2s all ease-in-out;
+        -ms-transition: 0.2s all ease-in-out;
+        transition: 0.2s all ease-in-out;
+    }
+
+    html body #wrap-conheca-nos #wrap-texto p
+    {
+        text-align: center;
+    }
+
+    html body #wrap-conheca-nos #wrap-texto a
+    {
+        margin-top: 50px;
+        display: block;
+        text-align: right;
+    }
+
+    html body #hightouch #wrap-case-principal
+    {
+        margin-top: 65px !important;
+    }
+
+    html body #footer
+    {
+        padding-bottom: 40px;
+    }
+
+    html body #page-hi #wrap-header-hi
+    {
+        margin-top: 60px;
+    }
+
+    html body #page-hi #wrap-header-hi #logo-header-hi
+    {
+        display: none;
+    }
+
+    html body #hightouch #wrap-case #grade-cases li
+    {
+        width: 100% !important;
+    }
+
+    html body #page-hi #wrap-porque .como .right
+    {
+        float: right;
+        margin-right: 0;
+    }
+
+    html body #page-hi #wrap-porque p
+    {
+        text-align: center !important;
+        padding: 0 60px;
+        line-height: 28px;
+    }
+
+    html body #page-hi #wrap-porque h2
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    html body #page-hi #wrap-porque .porque,
+    html body #page-hi #wrap-porque .como,
+    html body #page-hi #wrap-porque .oque
+    {
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    html body .corporativo #intro h2
+    {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    html body .corporativo #intro p
+    {
+        line-height: 35px;
+    }
+
+    html body .corporativo #desc-modulos article
+    {
+        padding-bottom: 100px;
+    }
+
+    html body .corporativo #desc-modulos article figure
+    {
+        margin-bottom: 0;
+    }
+
+    html body .corporativo #desc-modulos article h2,
+    html body .corporativo #desc-modulos article p,
+    html body .corporativo #desc-modulos article figure
+    {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    html body .corporativo #desc-modulos article ol
+    {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    html body .corporativo #desc-modulos article  ol li:after
+    {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 470px) {
+
+    html body .page-single-case #wrap-objetivo-case .span4
+    {
+        height: auto !important;
+        margin-bottom: 80px;
+        padding-top: 60px;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption,
+    html body #hightouch #wrap-case-principal #img-case .figcaption
+    {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #title-img h2
+    {
+        padding-left: 5%;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #lbl-role
+    {
+        display: none;
+    }
+
+    html body #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #lbl-role
+    {
+        display: none;
+    }
+
+    html body #hightouch #wrap-case-principal #img-case,
+    html body #hightouch #wrap-case-principal #img-case #mascara-azul
+    {
+        height: auto;
+    }
+
+    html body .corporativo #intro h2
+    {
+        background-size: contain;
+        width: 90%;
+    }
+
+    html body .corporativo #intro p
+    {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+
+    html body .corporativo #modulos
+    {
+        padding-bottom: 50px;
+    }
+
+    html body .corporativo #modulos #todos
+    {
+        display: none;
+    }
+
+    html body .corporativo #desc-modulos article h2
+    {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 440px) {
+
+    html body #hightouch #wrap-case #grade-cases li #wrap-texto
+    {
+        display: none;
+    }
+
+    html body #hightouch #wrap-case #grade-cases li .ver-mais-white
+    {
+        margin-top: 60px;
+    }
+
+    html body #page-hi #wrap-header-hi
+    {
+        /*background-position: left center;*/
+        height: 150px !important;
+    }
+
+}
+
+
+/*@media (min-width: 1655px) {
+
+    html body #page-hi #wrap-header-hi
+    {
+        background-image: url('img/hi-header-sobre-a-hi-1655.jpg') !important;
+    }
+
+}
+
+*/
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
@@ -341,8 +1124,8 @@ textarea {
 
 
 @font-face{
-    font-family: "Luna";
-    src: url(fonts/Luna.ttf) format("truetype");
+    font-family: "RaissaLuna";
+    src: url(fonts/RaissaLuna.ttf) format("truetype");
 }
 
 @font-face{
@@ -370,6 +1153,96 @@ textarea {
     font-family: "OpenSansSB";
     src: url(fonts/OpenSans-Semibold.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url(fonts/raleway-bold-webfont.eot);
+    src: url(fonts/raleway-bold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-bold-webfont.woff) format('woff'),
+         url(fonts/raleway-bold-webfont.ttf) format('truetype'),
+         url(fonts/raleway-bold-webfont.svg#ralewaybold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextrabold';
+    src: url(fonts/raleway-extrabold-webfont.eot);
+    src: url(fonts/raleway-extrabold-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-extrabold-webfont.woff) format('woff'),
+         url(fonts/raleway-extrabold-webfont.ttf) format('truetype'),
+         url(fonts/raleway-extrabold-webfont.svg#ralewayextrabold) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url(fonts/raleway-regular-webfont.eot);
+    src: url(fonts/raleway-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-regular-webfont.woff) format('woff'),
+         url(fonts/raleway-regular-webfont.ttf) format('truetype'),
+         url(fonts/raleway-regular-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url(fonts/raleway-medium-webfont.eot);
+    src: url(fonts/raleway-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-medium-webfont.woff) format('woff'),
+         url(fonts/raleway-medium-webfont.ttf) format('truetype'),
+         url(fonts/raleway-medium-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url(fonts/raleway-light-webfont.eot);
+    src: url(fonts/raleway-light-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-light-webfont.woff) format('woff'),
+         url(fonts/raleway-light-webfont.ttf) format('truetype'),
+         url(fonts/raleway-light-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewayextralight';
+    src: url(fonts/raleway-extralight-webfont.eot);
+    src: url(fonts/raleway-extralight-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-extralight-webfont.woff) format('woff'),
+         url(fonts/raleway-extralight-webfont.ttf) format('truetype'),
+         url(fonts/raleway-extralight-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url(fonts/raleway-thin-webfont.eot);
+    src: url(fonts/raleway-thin-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/raleway-thin-webfont.woff) format('woff'),
+         url(fonts/raleway-thin-webfont.ttf) format('truetype'),
+         url(fonts/raleway-thin-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
 
 
 @-webkit-keyframes sobe-desce {
@@ -416,7 +1289,7 @@ p
 
 blockquote
 {
-    font-family: Luna;
+    font-family: "RaissaLuna", cursive, sans-serif;
     font-size: 26px;
     color: #999999;
     border: none !important;
@@ -427,7 +1300,7 @@ blockquote
 
 .menu
 {
-    font-family: "TarzanaB", "Browallia New", sans-serif;
+    font-family: "ralewaylight", "Browallia New", sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -435,7 +1308,8 @@ blockquote
 
 .figcaption
 {
-    width: 417px;
+    width: 392px;
+    padding-right: 25px;
     padding-left: 33px;
     background: url(img/hi-bg-img-home.png);
 }
@@ -463,6 +1337,11 @@ blockquote
 .radius
 {
     border-radius: 0 0 3px 0;
+}
+
+.radius-all
+{
+    border-radius: 3px 0 3px 3px;
 }
 
 .radius-left
@@ -498,29 +1377,33 @@ blockquote
     width: 276px;
     height: 56px;
     display: block;
-    margin: 64px auto 73px auto;
+    margin: 44px auto 44px auto;
 }
 
-.icone-fale:hover
+.icone-fale:hover,
+.icone-social:hover
 {
     text-decoration: none;
 }
 
-.icone-fale i
+.icone-fale i,
+.icone-social i
 {
     width: 72px;
     height: 56px;
     float: left;
-    background: #760e12;
+    background: #620e11;
     display: inline-block;
 }
 
-.icone-fale i img
+.icone-fale i img,
+.icone-social i img
 {
     margin-top: 8px;
 }
 
-.icone-fale p
+.icone-fale p,
+.icone-social p
 {
     width: 204px;
     height: 56px;
@@ -528,13 +1411,43 @@ blockquote
     display: inline-block;
     font-family: "TarzanaB", "Browallia New", sans-serif;
     text-transform: uppercase;
-    line-height: 56px;
+    line-height: 56px !important;
     font-size: 24px;
     color: #ed1c24;
     background: white;
     margin: 0;
 }
 
+
+.redes-sociais
+{
+    margin: 30px 0 0;
+
+    list-style: none;
+    text-align: center;
+}
+
+.redes-sociais li
+{
+    padding: 0;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.redes-sociais p
+{
+    display: inline;
+    width: auto;
+    padding: 0 20px
+}
+
+.icone-social
+{
+    width: auto;
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+}
 
 .ver-mais-red,
 .ver-mais-white
@@ -543,6 +1456,28 @@ blockquote
     height: 34px;
     text-align: center;
     display: block;
+}
+
+.ver-mais-red:hover p
+{
+    background: #be161d;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+.ver-mais-white:hover p,
+.icone-fale:hover p
+{
+    background: #620E11;
+    color: white !important;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 
 .ver-mais-red i,
@@ -597,6 +1532,37 @@ blockquote
     left: 400px;
 }
 
+.entrelinha
+{
+    height: 12px;
+    margin-bottom: -12px;
+}
+
+.page-section:after
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 24px solid transparent;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    left: 50%;
+    border-top: 24px solid #B40909;
+    margin-left: -24px;
+}
+
+.overlines
+{
+    background: url('img/hi-overlines.png');
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+
 
 
 
@@ -606,61 +1572,127 @@ blockquote
 
 #header
 {
-    background: url('img/hi-fundo-header.jpg');
-    height: 120px;
-}
-
-#header #bg-logo
-{
-    background: #0095da;
+    background: #00608e;
+    height: 104px;
 }
 
 #header #logo
 {
-    padding: 23px 0 22px 20px;
-    width: 218px;
-    height: 75px;
+    padding: 15px;
+    width: 79px;
+    height: 72px;
     text-indent: -9999px;
     background: url(img/hi-logo-branca.png) no-repeat center;
-    float: left;
-
+    display: block;
+    margin: 0 auto;
 }
 
 #header #menu
 {
-    background: #0086c4;
-    height: 120px;
+    height: 104px;
+    text-align: center;
+    margin-top: -104px;
+    /*pointer-events: none;*/
+}
+
+#header #ico-open-menu
+{
+    display: none;
+    position: relative;
+    z-index: 10000;
+}
+
+#header #ico-open-menu img
+{
+    max-width: 100%;
 }
 
 #header #menu ul
 {
-    float: right;
     margin: 0;
 }
 
 #header #menu ul li
 {
-    float: left;
     display: inline-block;
-    height: 117px;
+    position: relative;
+    border-bottom: 3px solid transparent;
+    width: 120px;
 }
 
-#header #menu ul li:hover
+#header #menu ul .space
+{
+    margin-left: 130px;
+}
+
+#header #menu ul li.link:hover
 {
     border-bottom: 3px solid white;
     background-color: #0095da;
 }
 
-#header #menu ul li a
+#header #menu ul li.link:after
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    content: '';
+    border: 5px solid white;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    float: left;
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    bottom: -13px;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+#header #menu ul li.link:hover:after
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#header #menu ul li.link a
 {
     display: inline-block;
     color: white;
-    padding: 60px 30px 50px 30px;
+    padding: 60px 0 23px;
+    pointer-events: auto;
+    width: 100%;
 }
 
-#header #menu ul li a:hover
+#header #menu ul li.link a:hover
 {
     text-decoration: none;
+}
+
+#header #menu ul .dropdown-menu
+{
+    padding: 10px 0;
+    top: 110%;
+    left: -15%;
+}
+
+#header #menu ul .dropdown-menu li
+{
+    width: 100%;
+}
+
+#header #menu ul .dropdown-menu li a
+{
+    display: block;
+    padding: 15px 15px;
+}
+
+#header #menu ul .dropdown-menu li a:hover
+{
+    background: #00608e;
 }
 
 /*------------------------Fim Header------------------------*/
@@ -681,11 +1713,238 @@ blockquote
 {
     padding: 0 !important;
     height: 100%;
+    position: relative;
 }
 
-#hightouch #wrap-case-home .row-fluid
+#hightouch #wrap-case-home:after
 {
-    height: 100%;
+    z-index: 20;
+    border-top-color: #4B4C7A;
+}
+
+#hightouch #wrap-case-home p
+{
+    font-family: "ralewayextralight", sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+}
+
+#hightouch #wrap-case-home #msg-inicial
+{
+    position: absolute;
+    top: 25%;
+}
+
+#hightouch #wrap-case-home #msg-inicial .line
+{
+    display: block;
+    background: white;
+    width: 43%;
+    height: 1px;
+    margin: 0 auto;
+}
+
+#hightouch #wrap-case-home #msg-inicial #principal
+{
+    margin-bottom: 18px;
+    font-family: "ralewaylight", sans-serif;
+    font-size: 50px;
+}
+
+#hightouch #wrap-case-home #msg-inicial #secundario
+{
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+#hightouch #wrap-case-home #produtos
+{
+    position: relative;
+    top: 50%;
+}
+
+#hightouch #wrap-case-home #produtos a
+{
+    text-decoration: none;
+}
+
+#hightouch #wrap-case-home #produtos .produto:hover .span3
+{
+    background: rgba(0, 0, 0, 0.2) !important;
+    padding-bottom: 30px;
+}
+
+#hightouch #wrap-case-home #produtos .produto:hover .bg-ico,
+#hightouch #wrap-case-home #produtos .produto:hover .layer1,
+#hightouch #wrap-case-home #produtos .produto:hover .layer2
+{
+    top: -10px;
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+#hightouch #wrap-case-home #produtos .span3 
+{
+    width: 27.27272727272727%;
+    margin-left: 0;
+}
+
+#hightouch #wrap-case-home #produtos .span1 
+{
+    width: 9.090909090909091%;
+    margin-left: 0;
+}
+
+#hightouch #wrap-case-home #produtos .hided
+{
+    opacity: 0;
+    -webkit-transform: scale(0.2,0.2);
+    -moz-transform: scale(0.2,0.2);
+    -ms-transform: scale(0.2,0.2);
+    -o-transform: scale(0.2,0.2);
+    transform: scale(0.2,0.2);
+}
+
+#hightouch #wrap-case-home #produtos .appeared
+{
+    opacity: 1;
+}
+
+#hightouch #wrap-case-home #produtos #ou.appeared
+{
+    -webkit-transition-delay: 1s;
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+}
+
+#hightouch #wrap-case-home #produtos #comemoracao.appeared
+{
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -ms-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+#hightouch #wrap-case-home #produtos #corporativo.appeared
+{
+    -webkit-transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+#hightouch #wrap-case-home #produtos #hischool.appeared
+{
+    -webkit-transition-delay: 0.8s;
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+}
+
+#hightouch #wrap-case-home #produtos .desc
+{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#hightouch #wrap-case-home #produtos .produto .desc
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#hightouch #wrap-case-home #produtos #ou
+{
+    background: url("img/hi-bg-ou.png") no-repeat center;
+    height: 345px;
+    position: relative;
+}
+
+#hightouch #wrap-case-home #produtos #ou p
+{
+    font-family: "ralewaybold", sans-serif;
+    font-size: 18px;
+    color: #4d566b;
+    line-height: 18px;
+    margin-top: -15px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+#hightouch #wrap-case-home #produtos #ou p #line1
+{
+    font-size: 22px;
+    display: block;
+}
+
+#hightouch #wrap-case-home #produtos .ico-produto,
+#hightouch #wrap-case-home #produtos .bg-ico,
+#hightouch #wrap-case-home #produtos .layer1,
+#hightouch #wrap-case-home #produtos .layer2
+{
+    background: url("img/hi-bg-ico-produtos-home.png") no-repeat center;
+    display: block;
+    width: 152px;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hightouch #wrap-case-home #produtos .ico-produto
+{
+    background: none;
+    position: relative;
+    margin: 0 auto 25px;
+}
+
+#hightouch #wrap-case-home #produtos #comemoracao .layer1
+{
+    background: url("img/hi-ico-comemoracao-sombra.png") no-repeat center;
+}
+
+#hightouch #wrap-case-home #produtos #comemoracao .layer2
+{
+    background: url("img/hi-ico-comemoracao-bolo.png") no-repeat center;
+}
+
+#hightouch #wrap-case-home #produtos #corporativo .layer1
+{
+    background: url("img/hi-ico-corporativo-sombra.png") no-repeat center;
+}
+
+#hightouch #wrap-case-home #produtos #corporativo .layer2
+{
+    background: url("img/hi-ico-corporativo-rocket.png") no-repeat center;
+}
+
+#hightouch #wrap-case-home #produtos #hischool .layer1
+{
+    background: url("img/hi-ico-hischool-sombra.png") no-repeat center;
+}
+
+#hightouch #wrap-case-home #produtos #hischool .layer2
+{
+    background: url("img/hi-ico-hischool-coracao.png") no-repeat center;
 }
 
 #hightouch #wrap-case-home ul
@@ -709,8 +1968,13 @@ blockquote
 {
     width: 100%;
     height: 100%;
-    background: url(img/hi-img-encontro-leonardo.jpg) no-repeat center 69px black;
+    background: no-repeat center 69px;
     background-size: cover;
+}
+
+#hightouch #wrap-case-home
+{
+    background: url('img/hi-bg-home.jpg') no-repeat bottom center;
 }
 
 #hightouch #wrap-case-home #img-case #mascara-azul,
@@ -785,7 +2049,7 @@ blockquote
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption
 {
-    height: 200px;
+    height: 270px;
     margin-top: 60px;
 }
 
@@ -796,7 +2060,8 @@ blockquote
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada .figcaption p
 {
-    margin-bottom: 15px;
+    line-height: 24px;
+    margin-bottom: 20px;
 }
 
 #hightouch #wrap-case-home #img-case #mascara-azul #mascara-granulada #lbl-role
@@ -846,7 +2111,18 @@ blockquote
 #hightouch #wrap-solucoes-home article
 {
     height: 350px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+#hightouch #wrap-solucoes-home article.appeared
+{
     margin-top: 55px;
+    margin-bottom: 0;
+    opacity: 1;
+    filter:alpha(opacity=100);
 }
 
 #hightouch #wrap-solucoes-home article:hover figure
@@ -860,6 +2136,12 @@ blockquote
     padding-top: 20px;
 }
 
+#hightouch #bottom-solucoes
+{
+    background: url('img/hi-bg-bottom-solucoes-home.png') center top;
+    position: relative;
+    z-index: 11;
+}
 
 /*---------------------Fim Soluções Home---------------------*/
 
@@ -867,31 +2149,54 @@ blockquote
 
 #hightouch #wrap-conheca-nos
 {
-    height: 452px;
-    background: url(img/hi-bg-conheca-nos.png) center top;
+    /*height: 452px;*/
+    background: url(img/hi-bg-red.png) center bottom no-repeat #cb0f16;
     text-align: left;
     position: relative;
     z-index: 10;
 }
 
-
 #hightouch #wrap-conheca-nos .row-fluid
 {
-    margin-top: 110px;
+    margin-top: 230px;
+    margin-bottom: 230px;
 }
 
 #hightouch #wrap-conheca-nos img
 {
     float: right;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    margin-right: 90px;
+}
+
+#hightouch #wrap-conheca-nos img.appeared
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    margin-right: 0;
+}
+
+#hightouch #wrap-conheca-nos #wrap-texto
+{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#hightouch #wrap-conheca-nos #wrap-texto.appeared
+{
+    opacity: 1;
+    filter: alpha(opacity=100);
 }
 
 #hightouch #wrap-conheca-nos p
 {
-    font-family: "OpenSans", sans-serif;
     color: #ebbaba;
     position: relative;
-    margin-top: 47px;
-    line-height: 25px;
+    margin-top: 10px;
+    line-height: 28px;
+    font-family: 'ralewayregular', sans-serif;
+    font-size: 24px;
 }
 
 #hightouch #wrap-conheca-nos p:before,
@@ -919,18 +2224,27 @@ blockquote
 #hightouch #wrap-conheca-nos a
 {
     font-family: "Tarzana", "Browallia New", sans-serif;
-    padding: 10px 10px 10px 0;
-    font-size: 26px;
-    color: white;
+    padding: 20px;
+    font-size: 32px;
+    color: #b60d13;
+    background: white;
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bolder;
 }
 
 #hightouch #wrap-conheca-nos a:hover
 {
-    padding: 5px 10px 15px 0;
+    padding: 15px 20px 25px 20px;
 }
 
+#hightouch #bottom-conheca-nos
+{
+    background: url('img/hi-bg-bottom-conhecanos-home.png') center top;
+    position: relative;
+    z-index: 1;
+}
 
 /*-----------------------Fim Wrap Conheça-nos-----------------------*/
 
@@ -938,20 +2252,27 @@ blockquote
 
 #hightouch #wrap-case-principal
 {
-    height: 515px;
+    height: 505px;
     padding: 0;
-    margin-top: 110px;
+    margin-top: 120px;
+}
+
+#hightouch #wrap-case-principal .row-fluid 
+{
+    background: url('img/hi-loading.gif ') no-repeat center;
 }
 
 #hightouch #wrap-case-principal #img-case 
 {
     height: 505px;
-    background: url(img/hi-img-encontro-leonardo-cases.jpg) no-repeat top center;
+    background: no-repeat top center;
+    background-size: cover;
 }
 
 #hightouch #wrap-case-principal #img-case .figcaption
 {
     height: 100%;
+    padding-top: 0.1px;
 }
 
 #hightouch #wrap-case-principal #img-case .figcaption h2
@@ -964,7 +2285,6 @@ blockquote
 
 #hightouch #wrap-case-principal #img-case .figcaption p
 {
-    width: 400px;
     line-height: 23px;
     margin-bottom: 60px;
 }
@@ -1020,6 +2340,7 @@ blockquote
 {
     width: 100%;
     background: url(img/hi-bg-cases.jpg);
+    background-size: cover;
 }
 
 #hightouch #wrap-case #grade-cases li
@@ -1047,12 +2368,12 @@ blockquote
     margin-bottom: 25px;
 }
 
-#hightouch #wrap-case #grade-cases li p
+#hightouch #wrap-case #grade-cases li #wrap-texto
 {
-    width: 395px;
     color: #f1d6d7;
     margin-left: 33px;
     line-height: 24px;
+    padding-right: 30px;
 }
 
 #hightouch #wrap-case #grade-cases li .ver-mais-white
@@ -1069,23 +2390,18 @@ blockquote
     padding-top: 0.1px;
 }
 
-#hightouch #wrap-case #grade-cases li .case-normal figure,
-#hightouch #wrap-case #grade-cases li .case-normal .img-logo
-{
-    width: 301px;
-    height: 95px;
-}
-
 #hightouch #wrap-case #grade-cases li .case-normal figure
 {
     height: 313px;
     margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
 
 #hightouch #wrap-case #grade-cases li .case-normal .img-logo
 {
-    top: 40%;
-    position: absolute;
+    top: 42%;
+    position: relative;
 }
 
 
@@ -1104,7 +2420,11 @@ blockquote
 #hightouch #wrap-case #grade-cases li .case-hover
 {
     background: url(img/hi-bg-cases-hover.png);
-    display: none;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    margin: 0;
 }
 
 #hightouch #wrap-case #grade-cases li .case-hover h3
@@ -1116,12 +2436,14 @@ blockquote
 
 #hightouch #wrap-case #grade-cases li:hover .case-normal
 {
-    display: none;
+    opacity: 0;
+    filter:alpha(opacity=0);
 }
 
 #hightouch #wrap-case #grade-cases li:hover .case-hover
 {
-    display: block;
+    opacity: 1;
+    filter:alpha(opacity=100);
 }
 
 #hightouch #wrap-case #grade-cases li:hover .tag-social
@@ -1134,8 +2456,10 @@ blockquote
 #hightouch #wrap-case .bg-fim-cases
 {
     height: 12px;
+    margin-bottom: -12px;
     display: block;
     position: relative;
+    z-index: 1;
     background: url(img/hi-bg-seta-fim-case.png) center;
 }
 
@@ -1154,20 +2478,147 @@ blockquote
 
 
 
+
+/*PAGE SOBRE A HI*/
+
+#page-hi #wrap-header-hi
+{
+    background: url('img/hi-header-sobre-a-hi.jpg') no-repeat center right;
+    background-size: cover;
+    height: 643px;
+    position: fixed;
+    z-index: -1;
+    top: 80px;
+    left: 0;
+    right: 0;
+}
+
+#page-hi #wrap-header-hi #logo-header-hi
+{
+    background: url('img/hi-header-sobre-a-hi-logo.png') no-repeat center;
+    background-size: contain;
+    height: 643px;
+    margin-top: 40px;
+}
+
+#page-hi #wrap-porque
+{
+    margin-top: 723px;
+    /*height: 1000px;*/
+    background: url('img/hi-bg-cinza.jpg') no-repeat white center bottom;
+    padding-top: 0.1px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+#page-hi #wrap-porque:before
+{
+    content: '';
+    background: url('img/hi-bg-top-porque.png') center no-repeat;
+    width: 100%;
+    height: 12px;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-top: -12px;
+}
+
+#page-hi #wrap-porque:after
+{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -24px;
+    margin-left: -6px;
+    border: 12px solid transparent;
+    border-top-color: #f6f6f6;
+}
+
+#page-hi #wrap-porque h2
+{
+    background-size: contain !important;
+    background-position: center !important;
+    text-indent: -9999px;
+    width: 156px;    
+    height: 156px;    
+    display: block;
+    margin: 0 auto;
+}
+
+#page-hi #wrap-porque p
+{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #666;
+    font-family: 'ralewayregular', sans-serif;
+    line-height: 24px;
+}
+
+#page-hi #wrap-porque .porque,
+#page-hi #wrap-porque .como,
+#page-hi #wrap-porque .oque
+{
+    margin-top: 100px;
+}
+
+#page-hi #wrap-porque .porque h2
+{
+    background: url('img/hi-icon-por-que.png') no-repeat;
+}
+
+#page-hi #wrap-porque .como h2
+{
+    background: url('img/hi-icon-como.png') no-repeat;
+}
+
+#page-hi #wrap-porque .como .right
+{
+    float: right;
+}
+
+#page-hi #wrap-porque .como .span2
+{
+    margin-right: 17.094017094017094%;
+    margin-left: 2.564102564102564%;
+}
+
+#page-hi #wrap-porque .como p
+{
+    text-align: right;
+}
+
+#page-hi #wrap-porque .oque h2
+{
+    background: url('img/hi-icon-o-que.png') no-repeat;
+}
+
+/*FIM PAGE CONTATO*/
+
+
+
+
+
+
+
+
 /*PAGE CONTATO*/
+
+#page-contato #map
+{
+    pointer-events: none;
+    padding-top: 104px;
+}
 
 #page-contato #topo-bg-form
 {
-    background: url('img/hi-topo-bg-form-contato.png');
-    margin-top: -45px;
+    background: url('img/hi-topo-bg-form-contato.png') center top;
+    margin-top: -95px;
     height: 12px;
     position: relative;
 }
 
 #page-contato #wrap-form
 {
-    background: url('img/hi-bg-form-contato.jpg');
-    height: 926px;
+    background: url('img/hi-bg-form-contato.jpg') no-repeat center bottom #EC1B24;
     position: relative;
 }
 
@@ -1265,30 +2716,831 @@ blockquote
 
 
 
+
+
+/*PAGE SINGLE CASE*/
+
+.page-single-case ul,
+.page-single-case ol
+{
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+}
+
+.page-single-case ul li,
+.page-single-case ol li
+{
+    margin-bottom: 20px;
+}
+
+.page-single-case ol
+{
+    counter-reset:li; /* Initiate a counter */
+    margin: 0;
+}
+
+.page-single-case ol li
+{
+    list-style: none;
+}
+
+.page-single-case ul
+{
+    margin: 15px;
+}
+
+.page-single-case ul li
+{
+    list-style: url('img/hi-list-style-arrow.png');
+}
+
+.page-single-case ol li:before
+{
+    content: counter(li)  ". "; /* Use the counter as content */
+    counter-increment: li; 
+    font-family: "TarzanaB", "Browallia New", sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+.page-single-case h2,
+.page-single-case h3
+{
+    font-family: "Tarzana", "Browallia New", sans-serif;
+    font-size: 46px;
+    font-weight: normal;
+}
+
+.page-single-case p
+{
+    line-height: 24px;
+}
+
+.page-single-case #wrap-icon
+{
+    text-align: center;
+}
+
+.page-single-case #wrap-case-principal .row-fluid
+{
+    position: fixed;
+    z-index: -1;
+}
+
+.page-single-case #wrap-descricao-case
+{
+    background: #FFF;
+}
+
+.page-single-case #wrap-resumo-case .span3,
+.page-single-case #wrap-resumo-case .span9
+{
+    float: right;
+}
+
+.page-single-case #wrap-descricao-case h3
+{
+    font-size: 34px;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.page-single-case #bottom-descricao,
+.page-single-case #bottom-resumo,
+.page-single-case #bottom-objetivo
+{
+    height: 12px;
+    margin-bottom: -12px;
+    position: relative;
+}
+
+.page-single-case #bottom-descricao
+{
+    background: url('img/hi-bg-bottom-descricao-case.png') center top;
+}
+
+.page-single-case #bottom-resumo
+{
+    background: url('img/hi-bg-bottom-resumo-case.png') center top;
+}
+
+.page-single-case #bottom-objetivo
+{
+    background: url('img/hi-bg-bottom-objetivo-case.png') center top;
+}
+
+.page-single-case #wrap-descricao-case,
+.page-single-case #wrap-resumo-case,
+.page-single-case #wrap-objetivo-case,
+.page-single-case #wrap-agencia-case
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.page-single-case #wrap-resumo-case
+{
+    background: #f2f2f2
+}
+
+.page-single-case #wrap-resumo-case h2
+{
+    margin-bottom: 30px;
+}
+
+.page-single-case #wrap-resumo-case #wrap-texto
+{
+    text-align: right;
+}
+
+.page-single-case #wrap-objetivo-case
+{
+    background: #0095da;
+}
+
+.page-single-case #wrap-objetivo-case h1,
+.page-single-case #wrap-objetivo-case h2,
+.page-single-case #wrap-objetivo-case h3,
+.page-single-case #wrap-objetivo-case h4,
+.page-single-case #wrap-objetivo-case h5,
+.page-single-case #wrap-objetivo-case h6
+{
+    color: #BFDCF2;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.page-single-case #wrap-objetivo-case a
+{
+    color: white;
+}
+
+.page-single-case #wrap-objetivo-case figure
+{
+    margin-top: -25px;
+}
+
+.page-single-case #wrap-objetivo-case figure,
+.page-single-case #wrap-objetivo-case h2
+{
+    text-align: center;
+}
+
+.page-single-case #wrap-objetivo-case h2
+{
+    color: white;
+    margin: 30px 0 60px;
+}
+
+.page-single-case #wrap-objetivo-case p,
+.page-single-case #wrap-objetivo-case ul,
+.page-single-case #wrap-objetivo-case ol
+{
+    color: #bfdcf2;
+}
+
+.page-single-case #wrap-objetivo-case .span4
+{
+    margin-top: 25px;
+    padding-bottom: 60px;
+}
+
+.page-single-case #wrap-objetivo-case .span4:hover
+{
+    background: #0086c4;
+}
+
+.page-single-case #wrap-objetivo-case .span4:hover figure
+{
+    margin-top: -35px;
+}
+
+.page-single-case #wrap-objetivo-case .span4:hover h2
+{
+    margin-top: 40px;
+}
+
+.page-single-case #wrap-objetivo-case #wrap-text
+{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.page-single-case #wrap-agencia-case
+{
+    padding-bottom: 120px;
+    background: white;
+}
+
+.page-single-case #wrap-agencia-case h2,
+.page-single-case #wrap-agencia-case figure
+{
+    text-align: center;
+}
+
+.page-single-case #wrap-agencia-case h2
+{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.page-single-case #wrap-agencia-case a:hover img
+{
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+
+
+/*FIM PAGE SINGLE CASE*/
+
+
+
+
+
 #footer
 {
     height: 529px;
     background: url(img/hi-bg-map-footer-red.jpg) center top;
     text-align: center;
-    margin-top: -12px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#footer-home
+#footer.home
 {
-    height: 510px;
-    background: url(img/hi-bg-map-footer.jpg) center top;
-    margin-top: -12px;
-    text-align: center;
     position: relative;
+    background: url(img/hi-bg-map-footer.jpg) center top;
 }
 
-#footer-home .address
+#footer.home .address
 {
     background: url(img/hi-bg-azul-ball-footer.png);
-    margin-top: 110px;
 }
 
-#footer-home .address p
+#footer.home .icone-fale:hover p,
+#footer.home .icone-social:hover p
+{
+    background: #0095da;
+    color: white !important;
+}
+
+#footer.home .icone-fale i,
+#footer.home .icone-social i
+{
+    background: #0095da;
+}
+
+#footer.home .icone-fale p,
+#footer.home .icone-social p
+{
+    color: #0095da;
+}
+
+#footer.home .address p
 {
     color: white;
 }
+
+
+
+
+/*STANDARD PAGE*/
+
+
+
+
+#def-page
+{
+    padding-top: 220px;
+    padding-bottom: 140px;
+}
+
+#def-page
+{
+    padding-top: 220px;
+    padding-bottom: 140px;
+}
+
+#def-page figure.icone-def-page img
+{
+    margin: 0 auto;
+    display: block;
+}
+
+#def-page h2.titulo-def-page
+{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+#def-page p
+{
+    font-size: 14px;
+}
+
+/*FIM STANDARD PAGE*/
+
+
+
+
+
+
+
+/*PAGE COMEMORACAO E HISCHOOL*/
+
+
+
+
+.comemoracao #intro,
+.hischool #intro
+{
+    height: 100%;
+    background: url('img/hi-bg-intro-comemoracao.jpg') no-repeat top center;
+}
+
+.comemoracao #intro h2,
+.hischool #intro h2
+{
+    height: 125px;
+    text-indent: -9999px;
+    background: url('img/hi-logo-comemoracao.png') no-repeat 80px center;
+    margin-top: 204px;
+    margin-bottom: 55px;
+    padding-left: 80px;
+}
+
+.comemoracao #intro h3,
+.comemoracao #intro h4,
+.hischool #intro h3,
+.hischool #intro h4
+{
+    padding-left: 80px;
+    font-weight: normal;
+    font-family: "ralewaylight", sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.comemoracao #intro h4,
+.hischool #intro h4
+{
+    margin-top: 20px;
+    font-size: 32px;
+    color: #bbb;
+    line-height: 32px;
+}
+
+.comemoracao #cases,
+.hischool #escolas
+{
+    background: #0081c4;
+    min-height: 100%;
+    position: relative;
+}
+
+.comemoracao #cases:after
+{
+    border-top-color: white;
+}
+
+.comemoracao #cases #titulo,
+.comemoracao #outros-clientes #titulo,
+.hischool #escolas #titulo,
+.hischool #mais-escolas #titulo,
+.hischool #contrapartidas #titulo
+{
+    font-family: "ralewaylight", sans-serif;
+    font-size: 58px;
+    font-weight: normal;
+    color: white;
+    margin: 50px 0 50px 80px;
+}
+
+.comemoracao #cases .case
+{
+    height: 410px;
+    background: url('img/space.gif');
+}
+
+.comemoracao #cases .case h2
+{
+    margin-top: 45px;
+    padding-left: 80px;
+    font-family: "ralewaythin", sans-serif;
+    font-size: 92px;
+    line-height: 92px;
+    color: white;
+    font-weight: normal;
+}
+
+.comemoracao #cases .case .bg-hover
+{
+    height: 100%;
+}
+
+.comemoracao #cases .case .wrap-desc
+{
+    padding-top: 70px;
+}
+
+.comemoracao #cases .case .wrap-desc p
+{
+    display: none;
+    font-size: 26px;
+    line-height: 32px;
+    color: #008ad0;
+}
+
+.comemoracao #cases .case:hover
+{
+    padding: 20px;
+}
+
+.comemoracao #cases .case:hover .bg-hover
+{
+    background: white;
+}
+
+.comemoracao #cases .case:hover .bg-hover h2
+{
+    color: #008ad0;
+}
+
+.comemoracao #cases .case:hover .wrap-desc p
+{
+    display: block;
+}
+
+
+.comemoracao #outros-clientes,
+.hischool #mais-escolas
+{
+    position: relative;
+    background: #db0f14;
+    /*min-height: 100%;*/
+    padding-bottom: 150px;
+    padding-top: 1px;
+    border-top: 2px solid white;
+}
+
+.comemoracao #outros-clientes:after
+{
+    border-top-color: #DB0F14;
+}
+
+.comemoracao #outros-clientes .container-fluid
+{
+    padding: 0 80px;
+}
+
+.comemoracao #outros-clientes ul
+{
+    margin: 0;
+    list-style: none;
+}
+
+.comemoracao #outros-clientes ul li
+{
+    padding: 80px;
+    border: 2px solid white;
+    text-align: center;
+    text-indent: -9999px;
+}
+
+
+/*FIM PAGE COMEMORACAO*/
+
+
+
+
+
+
+
+
+/*PAGE CORPORATIVO*/
+
+.corporativo #intro
+{
+    padding-top: 104px;
+    background: url('img/hi-bg-intro-corporativo.jpg') center bottom;
+    text-align: center;
+    height: 470px;
+}
+
+.corporativo #intro h2
+{
+    text-indent: -9999px;
+    height: 125px;
+    background: url('img/hi-logo-corporativo.png') no-repeat center;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.corporativo #intro p,
+.corporativo #modulos p,
+.hischool #contrapartidas p
+{
+    font-family: "ralewaylight", sans-serif;
+    font-size: 34px;
+    color: #ddd;
+    line-height: 45px;
+}
+
+.corporativo #modulos
+{
+    padding-top: 80px;
+    padding-bottom: 170px;
+}
+
+.corporativo #modulos p,
+.hischool #contrapartidas p
+{
+    text-align: center;
+    margin-bottom: 70px;
+    color: #666;
+}
+
+.corporativo #modulos img
+{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.corporativo #desc-modulos
+{
+    background: #0081c4;
+    position: relative;
+}
+
+.corporativo #desc-modulos article
+{
+    border-bottom: 2px solid white;
+    position: relative;
+    color: white;
+    padding-top: 100px;
+    background: url('img/hi-bg-modulo-corporativo.png') top right;
+}
+
+.corporativo #desc-modulos article p
+{
+    margin-left: -24px;
+    font-family: "ralewaylight", sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+}
+
+.corporativo #desc-modulos article h2
+{
+    margin-left: -24px;
+    font-family: "ralewaymedium", sans-serif;
+    font-size: 72px;
+    font-weight: normal;
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.corporativo #desc-modulos article ol
+{
+    counter-reset: my-badass-counter;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: right;
+    font-family: "ralewaymedium", sans-serif;
+    font-size: 24px;
+    color: white;
+    font-style: italic;
+    list-style: none;
+}
+
+.corporativo #desc-modulos article ol li
+{
+    margin-bottom: 20px;
+    background: rgba( 0, 0, 0, 0.05 );
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.corporativo #desc-modulos article ol li:after
+{
+    content: " .0" counter(my-badass-counter);
+    counter-increment: my-badass-counter;
+    font-family: "Tarzana", sans-serif;
+    font-size: 82px;
+    font-style: normal;
+    margin-right: 80px;
+}
+
+.corporativo #desc-modulos article ol li:before
+{
+    display: none;
+}
+
+.corporativo #desc-modulos .bg-azul
+{
+    background: url('img/hi-blue-mask.png') no-repeat top left;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.corporativo #desc-modulos nav
+{
+    position: absolute;
+    display: none;
+    background: white;
+    z-index: 10;
+    top: 20px;
+    left: 20px;
+}
+
+.corporativo #desc-modulos article figure
+{
+    position: relative;
+    z-index: 11;
+    margin-bottom: 100px;
+}
+
+/*FIM PAGE CORPORATIVO*/
+
+
+
+
+
+
+
+
+
+
+/*PAGE HISCHOOL*/
+
+.hischool #intro
+{
+    text-align: right;
+    background: url('img/hi-bg-intro-hischool.jpg') center bottom;
+}
+
+.hischool #intro h2
+{
+    text-align: left;
+    background: url('img/hi-logo-hischool.png') no-repeat right center;
+    height: 130px;
+    margin-top: 204px;
+    margin-bottom: 45px;
+}
+
+.hischool #intro .container-fluid
+{
+    padding-right: 60px;
+}
+
+
+.hischool #escolas
+{
+    padding-top: 1px;
+}
+
+.hischool #escolas .span4
+{
+    margin: 0;
+    width: 25%;
+}
+
+.hischool #escolas ul
+{
+    margin: 0;
+}
+
+.hischool #escolas ul li
+{
+    padding: 24px;
+    height: 710px;
+    position: relative;
+}
+
+.hischool #escolas ul li p
+{
+    font-family: "ralewaythin", sans-serif;
+    font-size: 68px;
+    line-height: 70px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.hischool #mais-escolas .container-fluid
+{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hischool #mais-escolas ul
+{
+    columns: 3;
+}
+
+.hischool #mais-escolas ul li
+{
+    font-family: "ralewayextralight", sans-serif;
+    font-size: 40px;
+    color: white;
+    list-style: none;
+    line-height: 46px;
+    margin-top: 20px;
+}
+
+.hischool #mais-escolas ul li li
+{
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+
+.hischool #contrapartidas #titulo
+{
+    color: #008ad0;
+}
+
+.hischool #contrapartidas p
+{
+    font-size: 24px;
+    text-align: left;
+}
+
+.hischool #contrapartidas .container-fluid
+{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hischool #contrapartidas ul
+{
+    margin: 0;
+    list-style: none;
+}
+
+.hischool #contrapartidas ul li
+{
+    text-align: center;
+}
+
+.hischool #contrapartidas ul h2
+{
+    font-family: "ralewayextralight", sans-serif;
+    font-size: 30px;
+    color: #666;
+    font-weight: normal;
+    padding: 0 40px;
+}
+
+.hischool #contrapartidas ul p
+{
+    text-align: center;
+    font-family: "ralewaylight", sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    color: #038ad0;
+    padding: 0 20px;
+}
+
+.hischool #contrapartidas #contate
+{
+    background: #038ad0;
+    margin-top: 20px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+
+.hischool #contrapartidas #contate:hover
+{
+    background: #db0f14;
+}
+
+.hischool #contrapartidas #contate:hover a
+{
+    text-decoration: none;
+}
+
+.hischool #contrapartidas #contate a
+{
+    padding: 20px 15px;
+    display: block;
+    color: white;
+}
+
+
+
+
+
+/*FIM PAGE HISCHOOL*/
