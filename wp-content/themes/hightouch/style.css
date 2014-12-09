@@ -1578,6 +1578,8 @@ blockquote
 
 #header #logo
 {
+    position: relative;
+    z-index: 1;
     padding: 15px;
     width: 79px;
     height: 72px;
@@ -1664,7 +1666,7 @@ blockquote
     color: white;
     padding: 60px 0 23px;
     pointer-events: auto;
-    width: 100%;
+    width: 90%;
 }
 
 #header #menu ul li.link a:hover
@@ -1676,18 +1678,19 @@ blockquote
 {
     padding: 10px 0;
     top: 110%;
-    left: -15%;
+    left: -39%;
+    width: 210px;
 }
 
 #header #menu ul .dropdown-menu li
 {
-    width: 100%;
+    width: 90%;
 }
 
 #header #menu ul .dropdown-menu li a
 {
     display: block;
-    padding: 15px 15px;
+    padding: 15px 5%;
 }
 
 #header #menu ul .dropdown-menu li a:hover
