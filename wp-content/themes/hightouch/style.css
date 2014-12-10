@@ -365,6 +365,20 @@ textarea {
 
 }
 
+@media (max-width: 1080px) {
+
+    html body #hightouch.comemoracao #logo-comemoracao
+    {
+        background-size: contain;
+    }
+
+    html body #hightouch #wrap-case-home #msg-inicial #secundario
+    {
+        font-size: 26px;
+    }
+
+}
+
 @media (max-width: 1024px) {
     html body .corporativo #desc-modulos .bg-azul
     {
@@ -3068,10 +3082,10 @@ blockquote
 {
     height: 125px;
     text-indent: -9999px;
-    background: url('img/hi-logo-comemoracao.png') no-repeat 80px center;
+    background: url('img/hi-logo-comemoracao.png') no-repeat left center;
     margin-top: 204px;
     margin-bottom: 55px;
-    padding-left: 80px;
+    margin-left: 80px;
 }
 
 .comemoracao #intro h3,

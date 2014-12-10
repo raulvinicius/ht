@@ -13,7 +13,7 @@
 	    <section id="intro">
 	    	<div class="container-fluid">
 		    	<div class="row-fluid">
-			    	<h2 class="span8">[hi] Comemoração</h2>
+			    	<h2 id="logo-comemoracao" class="span8">[hi] Comemoração</h2>
 		    	</div>
 		    	<div class="row-fluid">
 			    	<h3 class="span8">Envolvemos as datas marcantes de empresas e instituições em eventos idealizados exclusivamente para celebrar um legado.</h3>
